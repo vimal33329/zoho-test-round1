@@ -14,13 +14,7 @@ cout<<str[i];
 }
 
 
-void prtf(int st,int en)
-{
-for(int i=st;i<en;i++)
-{
-cout<<str[i];
-}
-}
+
 
 void main()
 {
@@ -37,7 +31,7 @@ while(str[i]!='\0')
 
 for(i=0;i<mid;i++){
 prt(mid,n);
-prtf(0,i+1);
+prt(0,i+1);
 cout<<"\n";
 }
 
